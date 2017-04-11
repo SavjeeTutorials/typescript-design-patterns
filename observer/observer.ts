@@ -1,9 +1,3 @@
-// Temperature monitor (subject)
-// -> Temperature display
-// -> Thermostat
-// -> Fan
-// -> ...
-
 interface Subject{
     registerObserver(o: Observer);
     removeObserver(o: Observer);
