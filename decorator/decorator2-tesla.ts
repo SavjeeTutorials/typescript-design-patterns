@@ -76,7 +76,7 @@ class RearFacingSeats extends CarOptions {
     }
 }
 
-// ------------------------------ Make our coffee! ------------------------------
+// ------------------------------ Configure our Tesla! ------------------------------
 let myTesla = new ModelS();
 myTesla = new SmartAirSuspension(myTesla);
 myTesla = new RearFacingSeats(myTesla);
