@@ -42,7 +42,7 @@ module test {
         }
 
         public cancelOrder() {
-            console.log('This order is already cancelled');
+            console.log('This order is already cancelled.');
             this.order.setState(this.order.cancelledOrderState);
         }
 
@@ -72,7 +72,7 @@ module test {
             this.order.setState(this.order.orderBeingPrepared);
         }
         shipOrder() {
-            console.log('Cannot ship order when payment is pending!');
+            console.log('Cannot ship order when payment is pending.');
         }
     }
 
@@ -84,14 +84,14 @@ module test {
         }
 
         cancelOrder() {
-            console.log('Cancelling your order.. You will be refunded.');
+            console.log('Cancelling your order... You will be refunded.');
             this.order.setState(this.order.cancelledOrderState);
         }
         verifyPayment() {
             console.log('Payment is already verified.');
         }
         shipOrder() {
-            console.log('Shipping your order now..');
+            console.log('Shipping your order now...');
             this.order.setState(this.order.orderShipedState);
         }
     }
@@ -107,10 +107,10 @@ module test {
             console.log('You cannot cancel an order that has been shipped.');
         }
         verifyPayment() {
-            console.log('Payment is already verified');
+            console.log('Payment is already verified.');
         }
         shipOrder() {
-            console.log('Order is already shipped');
+            console.log('Order is already shipped.');
         }
     }
 
