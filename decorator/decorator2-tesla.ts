@@ -32,9 +32,9 @@ class ModelX extends Car {
 
 // ------------------------------ Options ------------------------------
 class EnhancedAutoPilot extends CarOptions {
-    constructor(beverage: Car) {
+    constructor(car: Car) {
         super();
-        this.decoratedCar = beverage;
+        this.decoratedCar = car;
     }
 
     public getDescription(): string {
@@ -47,9 +47,9 @@ class EnhancedAutoPilot extends CarOptions {
 }
 
 class SmartAirSuspension extends CarOptions {
-    constructor(beverage: Car) {
+    constructor(car: Car) {
         super();
-        this.decoratedCar = beverage;
+        this.decoratedCar = car;
     }
 
     public getDescription(): string {
@@ -62,9 +62,9 @@ class SmartAirSuspension extends CarOptions {
 }
 
 class RearFacingSeats extends CarOptions {
-    constructor(beverage: Car) {
+    constructor(car: Car) {
         super();
-        this.decoratedCar = beverage;
+        this.decoratedCar = car;
     }
 
     public getDescription(): string {
